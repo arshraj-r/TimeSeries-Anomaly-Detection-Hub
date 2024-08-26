@@ -4,8 +4,6 @@
 
 This repository provides a comprehensive approach to detecting anomalies in time series data using various methods, including Long Short-Term Memory (LSTM) networks and the Facebook Prophet model. The project demonstrates the application of these models to identify anomalies in sequential data and compare their performance.
 
-The project uses the [Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB) dataset, which includes labeled time series data with real-world anomalies.
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -23,10 +21,10 @@ The project uses the [Numenta Anomaly Benchmark (NAB)](https://github.com/nument
 
 ## Dataset
 
-The project uses the NAB (Numenta Anomaly Benchmark) dataset. You can download the dataset from the [NAB GitHub repository](https://github.com/numenta/NAB).
+The dataset used in this project is available at [Kaggle - Walmart Sales Dataset](https://www.kaggle.com/datasets/mikhail1681/walmart-sales). The dataset contains the following file:
 
-Example datasets used in this project:
-- **Ambient Temperature System Failure**: [CSV File](https://raw.githubusercontent.com/numenta/NAB/master/data/realKnownCause/ambient_temperature_system_failure.csv)
+- **`Walmart_Sales.csv`**: This file contains historical sales data including information on sales, store_id, item_id, date, and other relevant features.
+
 
 ## Project Structure
 
@@ -34,7 +32,7 @@ Example datasets used in this project:
 Comprehensive-Anomaly-Detection/
 │
 ├── data/
-│   ├── ambient_temperature_system_failure.csv
+│   ├── walmart_sales.csv
 │   └── ...
 ├── notebooks/
 │   ├── lstm/
