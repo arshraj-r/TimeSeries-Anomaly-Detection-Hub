@@ -159,10 +159,6 @@ The project compares the performance of different models (LSTM, Prophet) in dete
 
 ![Prophet Anomalies Plot](images/prophet_anomalies_plot.png)
 
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before making any changes.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
